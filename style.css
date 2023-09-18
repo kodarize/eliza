@@ -1,51 +1,29 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
-
-*:focus {
-	outline: none;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
 }
 
-#chat {
-	position: absolute;
-	top: calc(100% - 50px);
-	left: 0;
-	width: 100%;
-	height: 50px;
-	background-color: #112233;
-	z-index: 2;
+h1 {
+    font-size: 36px;
 }
 
-#input {
-	position: absolute;
-	top: 0;
-	left: 23px;
-	width: calc(100% - 50px);
-	height: calc(100% - 10px);
-	text-align: center;
-	background-color: #000000;
-	color: #FFFFFF;
-	overflow: scroll;
-	border: 0;
-	outline: 0;
-	border-radius: 25px;
-	transition: 1s;
+p {
+    font-size: 20px;
 }
 
-#input:hover {
-	border-radius: 15px;
-	left: 13px;
-	width: calc(100% - 30px);
+.download-button {
+    display: inline-block;
+    background-color: #0074d9;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
-#box {
-	position: absolute;
-	top: 95px;
-	left: 0;
-	width: calc(100% - 44px);
-	height: calc(100% - 195px);
-	background-image: linear-gradient(white, #223344, #112233, #112233, #112233);
-	color: #FFFFFF;
-	line-height: 35px;
-	font-size: 25px;
-	padding: 25px;
-	overflow: scroll;
+.download-button:hover {
+    background-color: #0056b3;
 }
